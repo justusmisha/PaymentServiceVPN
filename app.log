@@ -1,0 +1,63 @@
+2024-08-29 14:22:06,582 - ERROR - Database error occurred: When initializing mapper Mapper[Users(users)], expression 'Gift' failed to locate a name ('Gift'). If this is a class name, consider adding this relationship() to the <class 'app.database.models.Users'> class after both dependent classes have been defined.
+2024-08-29 14:24:35,655 - ERROR - Database error occurred: When initializing mapper Mapper[Users(users)], expression 'Gift' failed to locate a name ('Gift'). If this is a class name, consider adding this relationship() to the <class 'app.database.models.Users'> class after both dependent classes have been defined.
+2024-08-29 14:25:25,371 - ERROR - Database error occurred: When initializing mapper Mapper[Users(users)], expression 'Referrals' failed to locate a name ('Referrals'). If this is a class name, consider adding this relationship() to the <class 'app.database.models.Users'> class after both dependent classes have been defined.
+2024-08-29 14:25:47,788 - ERROR - Database error occurred: When initializing mapper Mapper[Users(users)], expression 'YookassaPayments' failed to locate a name ('YookassaPayments'). If this is a class name, consider adding this relationship() to the <class 'app.database.models.Users'> class after both dependent classes have been defined.
+2024-08-29 14:26:01,807 - ERROR - Database error occurred: Users.referred_users and back-reference Users.referrals are both of the same direction <RelationshipDirection.ONETOMANY: 1>.  Did you mean to set remote_side on the many-to-one side ?
+2024-08-29 14:26:29,905 - WARNING - User with ID 2069609909 not found.
+2024-08-29 14:42:14,290 - WARNING - User with ID 2 not found.
+2024-08-29 15:36:37,066 - ERROR - Error calculating price for default: string. UserId: 1
+2024-08-29 16:59:50,705 - INFO - <Response [200 OK]>
+2024-08-29 17:00:03,139 - INFO - <Response [200 OK]>
+2024-08-29 17:00:15,115 - INFO - <Response [200 OK]>
+2024-08-29 17:32:24,957 - INFO - <Response [200 OK]>
+2024-08-29 17:32:24,957 - INFO - True
+2024-08-29 17:32:24,957 - INFO - 200
+2024-08-29 17:32:51,336 - INFO - <Response [200 OK]>
+2024-08-29 17:32:51,336 - INFO - True
+2024-08-29 17:43:37,123 - ERROR - Some Error occured: 'Depends' object has no attribute 'execute'
+2024-08-29 17:43:50,974 - ERROR - Some Error occured: 'Depends' object has no attribute 'execute'
+2024-08-29 17:45:10,443 - ERROR - Some Error occured: 'Depends' object has no attribute 'execute'
+2024-08-29 17:45:12,911 - ERROR - Some Error occured: 'Depends' object has no attribute 'execute'
+2024-08-29 17:45:22,466 - ERROR - Some Error occured: 'Depends' object has no attribute 'execute'
+2024-08-29 17:45:24,254 - ERROR - Some Error occured: 'Depends' object has no attribute 'execute'
+2024-08-29 17:45:24,852 - ERROR - Some Error occured: 'Depends' object has no attribute 'execute'
+2024-08-29 17:49:06,774 - WARNING - Payment details not found for payment_id: None
+2024-08-29 17:50:17,642 - WARNING - Payment details not found for payment_id: None
+2024-08-29 17:50:21,750 - WARNING - Payment details not found for payment_id: None
+2024-08-29 17:50:41,309 - WARNING - Payment details not found for payment_id: None
+2024-08-29 18:00:15,971 - WARNING - Subscription with ID None not found.
+2024-08-29 18:00:53,923 - WARNING - Subscription with ID None not found.
+2024-08-29 18:17:01,549 - INFO - {"message":"Invalid Merchant Uuid."}
+2024-08-29 18:17:01,550 - ERROR - Error creating cryptomus payment: 401, message='Unauthorized', url='https://api.cryptomus.com/v1/payment'
+2024-08-29 18:19:11,986 - INFO - {"message":"Invalid Merchant Uuid."}
+2024-08-29 18:19:11,987 - ERROR - Error creating cryptomus payment: 401, message='Unauthorized', url='https://api.cryptomus.com/v1/payment'
+2024-08-29 18:43:39,022 - WARNING - Subscription with ID None not found.
+2024-08-30 19:32:11,167 - ERROR - Database error occurred: Mapper 'Mapper[Subscription(subscription)]' has no property 'user'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2024-08-30 19:48:14,187 - ERROR - Database error occurred: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2024-08-30 19:49:08,869 - ERROR - Database error occurred: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2024-08-30 19:54:29,533 - ERROR - Database error occurred: Loader option SubsDefault.subs_types is not compatible with the Load.options() method.
+2024-08-30 19:54:54,325 - ERROR - Database error occurred: Loader option <class 'app.database.models.SubsDefault'> is not compatible with the Load.options() method.
+2024-08-30 19:55:45,663 - ERROR - Database error occurred: Can't apply "select in loader" strategy to property "SubsDefault.owner_id", which is a "column property"; this loader strategy is intended to be used with a "relationship property".
+2024-08-30 19:57:49,581 - ERROR - Database error occurred: ORM mapped entity or attribute "SubsFamily.subs_types" does not link from relationship "SubsDefault.subs_types".
+2024-08-30 20:01:17,114 - ERROR - Database error occurred: ORM mapped entity or attribute "SubsType.family_subscription" does not link from relationship "SubsType.default_subscription".
+2024-08-30 20:05:37,759 - ERROR - Database error occurred: Mapper 'Mapper[Users(users)]' has no property 'subscriptions'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2024-08-30 20:06:32,972 - ERROR - Database error occurred: Mapper 'Mapper[SubsType(substype)]' has no property 'subscription'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2024-08-30 20:07:18,221 - ERROR - Database error occurred: Mapper 'Mapper[SubsType(substype)]' has no property 'subscription'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2024-08-30 20:08:24,883 - ERROR - Database error occurred: ORM mapped entity or attribute "SubsType.family_subscription" does not link from relationship "SubsType.default_subscription".
+2024-08-30 20:09:22,862 - ERROR - Database error occurred: ORM mapped entity or attribute "SubsType.family_subscription" does not link from relationship "SubsType.default_subscription".
+2024-08-30 20:11:11,379 - ERROR - Database error occurred: ORM mapped entity or attribute "SubsType.family_subscription" does not link from relationship "SubsType.default_subscription".
+2024-08-30 20:16:06,313 - ERROR - Database error occurred: ORM mapped entity or attribute "SubsType.family_subscription" does not link from relationship "SubsType.default_subscription".
+2024-08-30 20:16:54,985 - ERROR - Database error occurred: Mapped instance expected for relationship comparison to object.   Classes, queries and other SQL elements are not accepted in this context; for comparison with a subquery, use SubsType.family_subscription.has(**criteria).
+2024-08-30 20:21:12,274 - INFO - Subscription data: "<app.database.models.Subscription object at 0x00000195FE5024A0>"
+2024-08-30 20:22:05,325 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": 2, "family_subs": null}}
+2024-08-30 20:22:49,653 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": 2, "family_subs": 1}}
+2024-08-30 20:23:52,116 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": 1, "family_subs": 1}}
+2024-08-30 20:26:02,354 - ERROR - Database error occurred: This result object is closed.
+2024-08-30 20:26:40,342 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": "<app.database.models.SubsDefault object at 0x000001BAA8A928F0>", "family_subs": 1}}
+2024-08-30 20:27:29,652 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": "<app.database.models.SubsDefault object at 0x00000200B1E068C0>", "family_subs": 1}}
+2024-08-30 20:28:02,946 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": "<app.database.models.SubsDefault object at 0x00000194E73CE920>", "family_subs": 1}}
+2024-08-30 20:29:14,683 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": "<app.database.models.SubsDefault object at 0x00000163FFACE950>", "family_subs": 1}}
+2024-08-30 20:31:52,672 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": "<app.database.models.SubsDefault object at 0x000001C83D0D59C0>", "family_subs": 1}}
+2024-08-30 20:32:25,806 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": "<app.database.models.SubsDefault object at 0x000001A98C2EDAB0>", "family_subs": 1}}
+2024-08-30 20:34:18,921 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": null, "family_subs": null}}
+2024-08-30 20:35:01,744 - INFO - Subscription data: {"id": 1, "date_start": "2024-08-29", "date_stop": "2028-08-29", "type": 1, "is_test": false, "subscription_type": {"id": 1, "default_subs": "<app.database.models.SubsDefault object at 0x0000020453D6FCD0>", "family_subs": 1}}
